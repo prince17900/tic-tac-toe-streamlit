@@ -54,3 +54,13 @@ if st.button("🔄 Reset Game"):
     st.session_state.current_player = "X"
     st.session_state.winner = None
     st.session_state.last_click = None
+
+# Footer / Credit
+st.markdown(
+    """
+    ---
+    👨‍💻 **Made by Prince Choudhary**  
+    📌 Roll No: *35111604424*
+    """,
+    unsafe_allow_html=True
+)
